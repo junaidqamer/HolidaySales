@@ -1,4 +1,4 @@
-DATE,compound,gas_prices,consumer_sentiments,unemployment_rate,CPI,dow_index,Consumer_debt_service,Pct_chng_prv_yr,Sales,GDP
+DATE,NYT_sentiment,gas_prices,consumer_sentiments,unemployment_rate,CPI,retail_index,Consumer_debt_service,GDP_growth,sales,GDP
 11/1/1992,0.8121,1.1112,85.3,7.4,-3.664765649369599,91.12,4.6602120000000005,4.4,-18182.993040493748,-576.1094474839992
 11/1/1993,0.762175,1.0664,81.2,6.6,-4.077295267901832,96.43,4.755414,2.6,-15860.780981956195,-676.8040249327732
 11/1/1994,0.6671,1.11575,91.6,5.6,-4.587534407903149,89.19,5.120072,4.1,-12429.204552768322,-618.3545339768734
