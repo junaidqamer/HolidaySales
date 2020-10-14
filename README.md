@@ -4,6 +4,8 @@
 
 ## BACKGROUND
 
+Holiday sales numbers have long been regarded as a strong GDP growth indicator. If sales numbers are high there's a strong correlation to growth in GDP. When there is a downturn in GDP, gold prices tend to rise. Gold has long been used as a safety net during times of economic downturn by investors.
+Using this information, we will test out 28 years worth of data to build various machine learning (supervised and unsupervised) to attempt to predict holiday sales numbers. In turn it can be infer from this information whether there will be GDP growth and whether gold prices will rise or fall.
 
 ## QUESTIONS TO BE ANSWERED:
 
