@@ -15,6 +15,8 @@ Using this information, we will test out 28 years worth of data to build various
 
 3. Can we predict gold prices by predicting holiday sales?
 
+4. Which is the best model to make our predicitons?
+
 ## RESOURCES
 
 1. *Vader Sentiment Analysis*
@@ -25,7 +27,8 @@ Using this information, we will test out 28 years worth of data to build various
 6. *NYT API Client*
 7. *Pandas*
 8. *bea GDP numbers*
-9. *Regression modeling such as Random forest, Decision tree, and Gradient boosted Regression*
+9. *Regression modeling such as Random forest, Decision tree, Gradient boosted Regression and Linear regression*
+10. *Unsupervised learning- LSTM
 
 
 ## PROCEDURE
@@ -34,3 +37,48 @@ Using 28 years of past holiday sales data, NYT news sentiment(NLP), GDP raw data
 
 
 ## FINDINGS
+
+After using various machine learning models, these were our finding with each model:
+
+### *Linear Regression*
+
+After running a linear regression model with all our features (10 columns: NYT sentiment, unemployment rate, CPI, consumer debt service, GDP growth, retail index, GDP, gas prices, consumer sentiments and gold prices) as our X and using holiday sales numbers as our Y. We found the following:
+R2 score: .96
+MAE:
+RMSE:
+
+After seeing our model had a high R2 score, we decided to utilize this model and build a predictive linerar regression. We accomplished this by shifting our Y and running a new model by dropping retail_index, consumer_sentiments, and gas_prices. We found the following:
+R2 score: .88
+MAE: 14322.72408070424
+RMSE:19658.106063704592
+
+### *Decision Tree*
+
+We ran a decision tree with all our 10 features described above. Our results were:
+R2 score: 0.745755446603428
+MSE:409789556.65769035
+RMSE: 20243.259536391128
+
+We wanted to see if we could possibly improve the outcome of this model. So we also built a predictive model: By dropping the same columns as our last model:
+
+R2 score: 0.8786481710499019
+MAE:243538750.19026047
+RMSE:15605.728121118234
+
+our model improved score after dropping 3 features.
+
+## *Random Forest*
+
+We ran a Random Forest with all our 10 features described above. Our results were:
+
+R2 score: 0.9554075279949993
+MAE:71873828.12550409
+RMSE:8477.843365237653
+
+*Random Forest Predictive Model*
+ We performed the same procedure, shifted our y and dropped 3 features in our X.
+ 
+R2 score: 0.9628939513351432
+MAE:74467445.56321658
+RMSE: 8629.452216868494
+ 
