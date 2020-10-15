@@ -92,3 +92,21 @@ MAE:74467445.56321658
 
 RMSE: 8629.452216868494
  
+## *Gradient Boost Regressor*
+
+Same procedure: Using the following learning rates, learning_rates = [0.05, 0.1, 0.25, 0.5, 0.75, 1] in a function.
+
+R2 score: 0.7951030399567943
+
+MAE:330251457.8774289
+
+RMSE: 18172.82195690666
+
+### Predictive Gradient Boost Model
+
+R2 score: 0.5995808818136175
+
+MAE:627821243.6266602
+
+RMSE: 25056.361340519103
+
