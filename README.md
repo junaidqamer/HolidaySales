@@ -55,14 +55,19 @@ RMSE:19658.106063704592
 ### *Decision Tree*
 
 We ran a decision tree with all our 10 features described above. Our results were:
+
 R2 score: 0.745755446603428
+
 MSE:409789556.65769035
+
 RMSE: 20243.259536391128
 
 We wanted to see if we could possibly improve the outcome of this model. So we also built a predictive model: By dropping the same columns as our last model:
 
 R2 score: 0.8786481710499019
+
 MAE:243538750.19026047
+
 RMSE:15605.728121118234
 
 our model improved score after dropping 3 features.
@@ -72,13 +77,18 @@ our model improved score after dropping 3 features.
 We ran a Random Forest with all our 10 features described above. Our results were:
 
 R2 score: 0.9554075279949993
+
 MAE:71873828.12550409
+
 RMSE:8477.843365237653
 
 *Random Forest Predictive Model*
- We performed the same procedure, shifted our y and dropped 3 features in our X.
+
+We performed the same procedure, shifted our y and dropped 3 features in our X.
  
 R2 score: 0.9628939513351432
+
 MAE:74467445.56321658
+
 RMSE: 8629.452216868494
  
