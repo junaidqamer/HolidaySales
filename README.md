@@ -40,19 +40,27 @@ Using 28 years of past holiday sales data, NYT news sentiment(NLP), GDP raw data
 
 After using various machine learning models, these were our finding with each model:
 
-### *Linear Regression*
+## *Linear Regression*
 
 After running a linear regression model with all our features (10 columns: NYT sentiment, unemployment rate, CPI, consumer debt service, GDP growth, retail index, GDP, gas prices, consumer sentiments and gold prices) as our X and using holiday sales numbers as our Y. We found the following:
+
 R2 score: .96
+
 MAE:
+
 RMSE:
 
+### Linear Regression Predictive
+
 After seeing our model had a high R2 score, we decided to utilize this model and build a predictive linerar regression. We accomplished this by shifting our Y and running a new model by dropping retail_index, consumer_sentiments, and gas_prices. We found the following:
+
 R2 score: .88
+
 MAE: 14322.72408070424
+
 RMSE:19658.106063704592
 
-### *Decision Tree*
+## *Decision Tree*
 
 We ran a decision tree with all our 10 features described above. Our results were:
 
@@ -61,6 +69,8 @@ R2 score: 0.745755446603428
 MSE:409789556.65769035
 
 RMSE: 20243.259536391128
+
+### Decision Tree Predictive
 
 We wanted to see if we could possibly improve the outcome of this model. So we also built a predictive model: By dropping the same columns as our last model:
 
@@ -82,7 +92,7 @@ MAE:71873828.12550409
 
 RMSE:8477.843365237653
 
-*Random Forest Predictive Model*
+### Random Forest Predictive Model
 
 We performed the same procedure, shifted our y and dropped 3 features in our X.
  
