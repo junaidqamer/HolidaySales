@@ -62,6 +62,9 @@ RMSE:19658.106063704592
 
 ## *Decision Tree*
 
+![alt text](http://url/to/img.png)
+
+
 We ran a decision tree with all our 10 features described above. Our results were:
 
 R2 score: 0.745755446603428
@@ -71,6 +74,8 @@ MSE:409789556.65769035
 RMSE: 20243.259536391128
 
 ### Decision Tree Predictive
+
+![alt text](http://url/to/img.png)
 
 We wanted to see if we could possibly improve the outcome of this model. So we also built a predictive model: By dropping the same columns as our last model:
 
@@ -84,6 +89,9 @@ our model improved score after dropping 3 features.
 
 ## *Random Forest*
 
+![alt text](http://url/to/img.png)
+
+
 We ran a Random Forest with all our 10 features described above. Our results were:
 
 R2 score: 0.9554075279949993
@@ -93,6 +101,8 @@ MAE:71873828.12550409
 RMSE:8477.843365237653
 
 ### Random Forest Predictive Model
+
+![alt text](http://url/to/img.png)
 
 We performed the same procedure, shifted our y and dropped 3 features in our X.
  
@@ -104,19 +114,38 @@ RMSE: 8629.452216868494
  
 ## *Gradient Boost Regressor*
 
+![alt text](http://url/to/img.png)
+
 Same procedure: Using the following learning rates, learning_rates = [0.05, 0.1, 0.25, 0.5, 0.75, 1] in a function.
 
 R2 score: 0.7951030399567943
 
-MAE:330251457.8774289
+MSE:330251457.8774289
 
 RMSE: 18172.82195690666
 
 ### Predictive Gradient Boost Model
 
+![alt text](http://url/to/img.png)
+
 R2 score: 0.5995808818136175
 
-MAE:627821243.6266602
+MSE:627821243.6266602
 
 RMSE: 25056.361340519103
+
+## LSTM Unsupervised learning
+
+![alt text](http://url/to/img.png)
+
+R2 score: 0.6446572681010527
+
+MSE:80028449.50779356
+
+RMSE: 8945.86214446621
+
+### Predictive LSTM
+
+![alt text](http://url/to/img.png)
+
 
