@@ -136,7 +136,7 @@ RMSE: 25056.361340519103
 
 ## LSTM Unsupervised learning
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/LSTM.png)
 
 R2 score: 0.6446572681010527
 
