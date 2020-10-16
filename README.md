@@ -146,6 +146,6 @@ RMSE: 8945.86214446621
 
 ### Predictive LSTM
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/predictive%20LSTM.png)
 
 
