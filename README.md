@@ -89,7 +89,7 @@ our model improved score after dropping 3 features.
 
 ## *Random Forest*
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/RANDOM%20FOREST.png)
 
 
 We ran a Random Forest with all our 10 features described above. Our results were:
