@@ -102,7 +102,7 @@ RMSE:8477.843365237653
 
 ### Random Forest Predictive Model
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/PREDIC%20RANDOM%20FOREST.png)
 
 We performed the same procedure, shifted our y and dropped 3 features in our X.
  
