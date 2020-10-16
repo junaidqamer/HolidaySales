@@ -75,7 +75,7 @@ RMSE: 20243.259536391128
 
 ### Decision Tree Predictive
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/PREDIC%20DECISION%20TREE.png)
 
 We wanted to see if we could possibly improve the outcome of this model. So we also built a predictive model: By dropping the same columns as our last model:
 
