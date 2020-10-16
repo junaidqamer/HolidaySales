@@ -62,7 +62,7 @@ RMSE:19658.106063704592
 
 ## *Decision Tree*
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/DECISION%20TREE%20MODEL.png)
 
 
 We ran a decision tree with all our 10 features described above. Our results were:
