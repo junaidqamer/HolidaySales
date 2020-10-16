@@ -126,7 +126,7 @@ RMSE: 18172.82195690666
 
 ### Predictive Gradient Boost Model
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/predict%20gradient%20boost.png)
 
 R2 score: 0.5995808818136175
 
