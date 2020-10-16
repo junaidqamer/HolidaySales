@@ -35,6 +35,14 @@ Using this information, we will test out 28 years worth of data to build various
 
 Using 28 years of past holiday sales data, NYT news sentiment(NLP), GDP raw data, unemployment numbers, gas prices, consumer sentiments,inflation, retail index, and gold returns we use this data to predict 2020 holiday sales. If the holiday sales are high, we can assume there will be growth in GDP, therefore gold prices will drop and vice versa.
 
+1. Using the NYT API, we gathered 28 years of holiday related articles from November 92- 2019 to December 92-2019. We then ran them through the Vader sentiment analyzer to analyze sentiment and built a data frame.
+
+2. We joined our dataframes NYT setiment and features together creating Main_df. We then ran a Hodrick-Prescott filter on columns Retail sales, CPI, and GDP growth to eliminate trend and keep the noise. A new Dataframe was created using this called MAIN_df. We then built 5 machine learning models, linear regression, Decision tree regressor, random forest regressor, gradient boost regressor, and LSTM. Our y is retail sales ( what we are trying to predict) and the rest X were our features.
+
+3. After analyzing the results of each model we need to evaluate the best working model using out of sample data. The original model used in- sample data but for our purpose of predicting holiday numbers for 2020 we needed to run the model using out of sample data. To do this we shifted our y (retail sales), dropped 2 columns from our featurs and ran it through our model. 
+
+4. To get this year's y, we plugged in our X in our best predictive model(shifted y). After doing this, we put the trend back into our number and obtain our 2020 predictions.
+
 
 ## FINDINGS
 
@@ -160,7 +168,7 @@ RMSE: 8945.86214446621
 
 **There is a negative correlation between GDP and gold prices as well the retail index and gold prices.**
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/correlation%20chart.png)
 
 3. Can we predict gold prices by predicting holiday sales?
 
