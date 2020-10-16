@@ -149,3 +149,22 @@ RMSE: 8945.86214446621
 ![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/predictive%20LSTM.png)
 
 
+
+## QUESTIONS ANSWERED
+
+1. Is there a correlation between high holiday sales number and GDP growth?
+
+**There is a 98% correlation between Holiday sales and GDP.**
+
+2. Is there a negative correlation between GDP and gold prices and the retail index and gold prices?
+
+**There is a negative correlation between GDP and gold prices as well the retail index and gold prices.**
+
+![alt text](http://url/to/img.png)
+
+3. Can we predict gold prices by predicting holiday sales?
+
+
+4. Which is the best model to make our predicitons?
+
+**Random Forest had the highest R2 score therefore this was the model we utilized.**
