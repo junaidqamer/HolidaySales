@@ -114,7 +114,7 @@ RMSE: 8629.452216868494
  
 ## *Gradient Boost Regressor*
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/GRADIENT%20BOOST.png)
 
 Same procedure: Using the following learning rates, learning_rates = [0.05, 0.1, 0.25, 0.5, 0.75, 1] in a function.
 
