@@ -5,7 +5,7 @@
 ## BACKGROUND
 
 Holiday sales numbers have long been regarded as a strong GDP growth indicator. If sales numbers are high there's a strong correlation to growth in GDP. When there is a downturn in GDP, gold prices tend to rise. Gold has long been used as a safety net during times of economic downturn by investors.
-Using this information, we will test out 28 years worth of data to build various machine learning (supervised and unsupervised) to attempt to predict holiday sales numbers. In turn it can be infer from this information whether there will be GDP growth and whether gold prices will rise or fall.
+Using this information, we will test out 28 years worth of data to build various machine learning models (supervised and unsupervised) to attempt to predict holiday sales numbers. In turn it can be infered whether there will be GDP growth and whether it would be better to invest in the retail index for example or gold.
 
 ## QUESTIONS TO BE ANSWERED:
 
@@ -13,9 +13,7 @@ Using this information, we will test out 28 years worth of data to build various
 
 2. Is there a negative correlation between GDP and gold prices and the retail index and gold prices?
 
-3. Can we predict gold prices by predicting holiday sales?
-
-4. Which is the best model to make our predicitons?
+3. Which is the best model to make our predicitons?
 
 ## RESOURCES
 
@@ -33,15 +31,17 @@ Using this information, we will test out 28 years worth of data to build various
 
 ## PROCEDURE
 
-Using 28 years of past holiday sales data, NYT news sentiment(NLP), GDP raw data, unemployment numbers, gas prices, consumer sentiments,inflation, retail index, and gold returns we use this data to predict 2020 holiday sales. If the holiday sales are high, we can assume there will be growth in GDP, therefore gold prices will drop and vice versa.
+Using 28 years of past holiday sales data, NYT news sentiment(NLP), GDP raw data, unemployment numbers, gas prices, consumer sentiment, inflation, retail index, and gold returns we predict 2020 holiday sales. If the holiday sales are high, we can assume there will be growth in GDP, therefore gold prices will drop and the retail index will rise, and vice versa.
 
 1. Using the NYT API, we gathered 28 years of holiday related articles from November 92- 2019 to December 92-2019. We then ran them through the Vader sentiment analyzer to analyze sentiment and built a data frame.
 
 2. We joined our dataframes NYT setiment and features together creating Main_df. We then ran a Hodrick-Prescott filter on columns Retail sales, CPI, and GDP growth to eliminate trend and keep the noise. A new Dataframe was created using this called MAIN_df. We then built 5 machine learning models, linear regression, Decision tree regressor, random forest regressor, gradient boost regressor, and LSTM. Our y is retail sales ( what we are trying to predict) and the rest X were our features.
 
-3. After analyzing the results of each model we need to evaluate the best working model using out of sample data. The original model used in- sample data but for our purpose of predicting holiday numbers for 2020 we needed to run the model using out of sample data. To do this we shifted our y (retail sales), dropped 2 columns from our featurs and ran it through our model. 
+3. After analyzing the results of each model we need to evaluate the best working model using out of sample data. The original model used in- sample data but for our purpose of predicting holiday numbers for 2020 we needed to run the model using out of sample data. To do this we shifted our y (retail sales), dropped 2 columns from our features and ran it through our model. 
 
-4. To get this year's y, we plugged in our X in our best predictive model(shifted y). After doing this, we put the trend back into our number and obtain our 2020 predictions.
+4. To get this year's y, we plugged in our X in our best predictive model(shifted y). After doing this, we put the trend back into our number and obtained our 2020 predictions.
+
+5. Finally, we created somewhat of a basic strategy function that took the predicted data and made a suggestion on whether one should invest in gold or the retail index and looked at how one's returns would look with a hypothetical investment of $10,000.
 
 
 ## FINDINGS
@@ -159,6 +159,11 @@ RMSE: 8945.86214446621
 
 ## Gold Trading Algorithm
 
+The mean return      75.400349
+The min return     -7709.806122
+The max return      5327.763496
+
+
 **************
 
 
@@ -180,7 +185,7 @@ RMSE: 8945.86214446621
 ![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/pair%20plot.png)
 
 3. Can we predict gold prices by predicting holiday sales?
-
+**I believe more research could be done, but at this time I would say no.**
 
 4. Which is the best model to make our predicitons?
 
