@@ -54,9 +54,9 @@ After running a linear regression model with all our features (10 columns: NYT s
 
 R2 score: .96
 
-MAE:
+MAE:14322.72408070424
 
-RMSE:
+RMSE:19658.106063704592
 
 ### Linear Regression Predictive
 
@@ -157,6 +157,11 @@ RMSE: 8945.86214446621
 ![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/predictive%20LSTM.png)
 
 
+## Gold Trading Algorithm
+
+**************
+
+
 
 ## QUESTIONS ANSWERED
 
@@ -170,9 +175,21 @@ RMSE: 8945.86214446621
 
 ![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/correlation%20chart.png)
 
+### Pair Plot
+
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/pair%20plot.png)
+
 3. Can we predict gold prices by predicting holiday sales?
 
 
 4. Which is the best model to make our predicitons?
 
 **Random Forest had the highest R2 score therefore this was the model we utilized.**
+
+
+## CONCLUSION
+
+Using a Random forest regressor model, we are predicting an estimated 486 Billion dollars in November Holiday sales in 2020. 497 billion dollars in December 2020 retail sales. The total holiday sales for 2020 are estimated to be 983 billion dollars.
+
+November 2019 retail sales were 461 billion dollars.
+December 2019 retail sales were 460 billion dollars.
