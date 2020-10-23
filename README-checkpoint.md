@@ -1,2 +1,0 @@
-# HolidaySales
-Team Project AI
