@@ -182,7 +182,7 @@ The max return      5327.763496
 
 ### Pair Plot
 
-![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/pair%20plot.png)
+![alt text](https://github.com/junaidqamer/HolidaySales/blob/main/Graphs/pairplot.png)
 
 3. Can we predict gold prices by predicting holiday sales?
 **I believe more research could be done, but at this time I would say no.**
