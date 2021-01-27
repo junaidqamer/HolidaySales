@@ -198,3 +198,11 @@ Using a Random forest regressor model, we are predicting an estimated 486 Billio
 
 November 2019 retail sales were 461 billion dollars.
 December 2019 retail sales were 460 billion dollars.
+
+UPDATE 1/26/21:
+
+2020 ACTUAL HOLIDAY NUMBERS FROM FRED.
+NOVEMBER 2020: 491 BILLION
+DECEMBER 2020: 489 BILLION
+
+TOTAL HOLIDAY SALE: 980 BILLION.
